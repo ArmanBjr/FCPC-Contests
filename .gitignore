@@ -1,0 +1,107 @@
+# --- OS / IDE ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# --- cpp ---
+*.exe
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+dist/
+build/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# --- MATLAB ---
+*.asv
+*.m~
+
+# --- LaTeX ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# --- Data / Results 
+data/raw/
+results/tmp/
+*.tmp
+*.bak
+
+# --- Archives / Binaries 
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.pdf
+!report/main.pdf
+*.pptx
+*.docx
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.bmp
+*.gif
+*.mp4
+*.avi
+*.mov
+*.tar.bz2
+Answers.zip
+
+# Duplicate mirror of contest answers (canonical: FirstContest/, SecondContest/, ...)
+/Answers/
+
+# Contest materials kept locally (repo = solution archive only)
+**/TestCases/
+**/Questions/
+**/Teams/
+**/DuringContest/
+**/submissions/
+
+# Local admin / non-archive material (kept on disk, not in repo)
+/2026/
+/HazineHa/
+
+# --- Large local data (ignored) ---
+/HazinehHa/
+/CPP-online-courses/
+/coresets/
+/data/
+/bottle_test2.zip
+/FirstContest/Teams/
+/SecondContest/Teams/
+/ThirdContest/Teams/
+/FourthContest/Teams/
+
+# --- Logs ---
+logs/
+*.log
+
+# Local git helper (not part of archive)
+tools/push_repo.py
