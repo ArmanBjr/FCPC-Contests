@@ -48,10 +48,15 @@ Python solutions run directly:
 python E.py < input.txt
 ```
 
-## Related
+## What is in this repo vs. local only
 
-- Older layout (`S.1-2024/`, `S.2-2024/`) was merged into the season folders above.
-- Local admin materials (registration, reports, expenses) are kept outside this repo.
+| In GitHub (this repo) | Kept locally only (not pushed) |
+|-----------------------|------------------------------------------|
+| Official answer files (`A.cpp` … `I.cpp` / `.py`) | Test cases (`TestCases/`) |
+| `README.md`, `tools/apply_headers.py` | Problem statements (`Questions/`) |
+| | Admin (registration, expenses, `2026/`) |
+
+Test cases and problem PDFs/LaTeX are intentionally excluded — the repo stays a lightweight **solution archive**.
 
 ## Author
 
